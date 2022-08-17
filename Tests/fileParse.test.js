@@ -1,16 +1,5 @@
-const uniqueIPs = (arr) => {
-    return new Set(arr).size;
-}
-
-const mostThreeCommon = (arr) => {
-    topThree = []
-    count = {}
-    for (let elements of arr) {
-        count[elements] = count[elements] + 1 || 1
-    }
-    let topThreeArray = Object.keys(count).sort((a, b) => count[b] - count[a]).slice(0, 3)
-    return topThreeArray
-}
+const { uniqueIPs, mostThreeCommon } = require('../logic')
+const { fileParse } = require('../fileParse')
 
 test('Testing unique amount of elements in an array', () => {
     const testArray = ['1', '2', '3', '3']
