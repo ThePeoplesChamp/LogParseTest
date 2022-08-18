@@ -13,7 +13,9 @@ Node; Readline and File system modules
 Testing; Jest
 
 ## Use
-Navigate to the repo inside your terminal and type 'npm start <name of the log file you're parsing>' in your console.
-the results will be printed in the console.
+-Download the repo and navigate to it within your terminal
+-Type 'npm i' to install all dependencies 
+-Type 'npm start <name of the log file you're parsing>'.
+-The results will be printed in the console.
 ## Testing
-To initiate testing navigate to the repo inside your terminal and type 'npm test'
+-To initiate testing navigate to the repo inside your terminal and type 'npm test'
