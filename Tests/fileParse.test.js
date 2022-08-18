@@ -1,5 +1,5 @@
 const { uniqueIPs, mostThreeCommon } = require('../logic')
-const { fileParse } = require('../fileParse')
+
 
 test('Testing unique amount of elements in an array', () => {
     const testArray = ['1', '2', '3', '3']
